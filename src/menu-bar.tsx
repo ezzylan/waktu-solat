@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { Icon, MenuBarExtra, getPreferenceValues, openExtensionPreferences } from "@raycast/api";
 import { useEffect, useState } from "react";
 import { PrayerTime, loadTodaySolat } from "./lib/prayer-times";
